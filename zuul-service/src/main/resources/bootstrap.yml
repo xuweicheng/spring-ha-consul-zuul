@@ -1,0 +1,5 @@
+spring:
+  cloud:
+    consul:
+      host: ${consul.host:192.168.200.90}
+      port: 8500
